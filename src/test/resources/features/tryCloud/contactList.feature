@@ -1,4 +1,4 @@
-@wip
+
 Feature: Verify users can see all the contact names on the contact list
   User Story: As a user, I should be able to view the contact list
 
