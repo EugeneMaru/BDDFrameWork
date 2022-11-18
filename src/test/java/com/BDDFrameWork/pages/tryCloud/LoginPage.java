@@ -20,4 +20,13 @@ public class LoginPage {
 
     @FindBy(id = "submit-wrapper")
     public WebElement loginBtn;
+
+    @FindBy(xpath = "//p[@class='warning wrongPasswordMsg']")
+    public WebElement invalidCredentialsErrorMessage;
+
+    public void login(String username,String password) {
+        inputUsername.sendKeys(username);
+        inputPassword.sendKeys(password);
+        loginBtn.click();
+    }
 }
