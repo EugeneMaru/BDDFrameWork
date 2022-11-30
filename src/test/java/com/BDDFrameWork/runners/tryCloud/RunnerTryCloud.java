@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/tryCloud",
         glue = "com/BDDFrameWork/stepDef/tryCloud",
         dryRun = false,
-        tags = "@wip"
+        tags = "@run"
 
 )
 

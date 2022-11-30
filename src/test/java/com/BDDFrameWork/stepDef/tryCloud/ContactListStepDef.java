@@ -28,6 +28,7 @@ public class ContactListStepDef {
 
     @When("the user clicks the contacts module")
     public void the_user_clicks_the_contacts_module() {
+
         contactListPage.contactsMenu.click();
     }
 
